@@ -4,18 +4,14 @@ class Zing < Formula
   version "0.1.0"
   license "MIT"
 
-  # TODO after the first `git tag v0.1.0 && git push --tags` on nhomble/zing:
-  # the release workflow uploads zing-darwin-arm64/.sha256 and
-  # zing-darwin-amd64/.sha256 as release assets — copy the sha256 values from
-  # there (or recompute per the README) and drop these placeholders.
   on_macos do
     on_arm do
       url "https://github.com/nhomble/zing/releases/download/v0.1.0/zing-darwin-arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000"
+      sha256 "0d58a1b42f331b6a8f5a184d04d6df05dc1da484435d89b339c35fa2fdff3df1"
     end
     on_intel do
       url "https://github.com/nhomble/zing/releases/download/v0.1.0/zing-darwin-amd64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000"
+      sha256 "9787f9ea6a89293d0c139d20b3a858a4e27a929932e2e73911d6914fbb62ea0d"
     end
   end
 
