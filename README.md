@@ -15,12 +15,14 @@ brew tap nhomble/tap
 | `skiff`        | Structured kubernetes diff                                           | https://github.com/nhomble/skiff                    |
 | `fmq`          | jq for markdown frontmatter                                          | https://github.com/nhomble/fmq                      |
 | `git-timeline` | Git plugin to print a timeline of changes across a repo + submodules | https://github.com/nhomble/git-timeline             |
+| `zing`         | Faithful ping rewrite in Zig, with opt-in UX niceties                | https://github.com/nhomble/zing                     |
 
 ### Stable (binary) installs
 
 ```sh
 brew install nhomble/tap/skiff
 brew install nhomble/tap/fmq
+brew install nhomble/tap/zing
 ```
 
 ### HEAD (build from source) installs
